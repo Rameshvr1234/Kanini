@@ -1,0 +1,15 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(git rm:*)",
+      "Bash(identify:*)",
+      "Bash(powershell -Command \"(Get-Item ''assets/imgs/resources/kanini-repair-process-step-by-step-diagnostics.jpg'').Length/1KB\")",
+      "Bash(powershell -Command \"(Get-Content service-data-recovery.html) -replace ''border-radius: 16px;'', ''max-width: 420px;\\r\\n    }\\r\\n    .enquiry-modal .modal-content {\\r\\n      border-radius: 12px;'' -replace ''box-shadow: 0 20px 60px rgba\\(0, 0, 0, 0.3\\);'', ''box-shadow: 0 10px 40px rgba(0, 0, 0, 0.2);'' -replace ''border-radius: 16px 16px 0 0;'', ''border-radius: 12px 12px 0 0;'' -replace ''padding: 25px 30px;'', ''padding: 18px 20px;'' -replace ''font-size: 24px;'', ''font-size: 19px;'' -replace ''width: 32px;'', ''width: 28px;'' -replace ''height: 32px;'', ''height: 28px;'' -replace ''padding: 35px 30px;'', ''padding: 20px;'' -replace ''border-left: 4px solid'', ''border-left: 3px solid'' -replace ''padding: 15px 20px;'', ''padding: 10px 15px;'' -replace ''border-radius: 8px;'', ''border-radius: 6px;'' -replace ''margin-bottom: 25px;'', ''margin-bottom: 18px;'' -replace ''font-size: 18px;'', ''font-size: 14px;'' -replace ''margin-bottom: 8px;'', ''margin-bottom: 6px;'' -replace ''font-size: 15px;'', ''font-size: 14px;'' -replace ''border: 2px solid'', ''border: 1px solid'' -replace ''padding: 12px 16px;'', ''padding: 8px 12px;'' -replace ''box-shadow: 0 0 0 3px'', ''box-shadow: 0 0 0 2px'' -replace ''padding: 14px 40px;'', ''padding: 10px 30px;'' -replace ''font-size: 16px;'', ''font-size: 14px;'' -replace ''transform: translateY\\(-2px\\);'', ''transform: translateY(-1px);'' -replace ''box-shadow: 0 8px 20px'', ''box-shadow: 0 6px 16px'' -replace ''<label for=\"\"enquiryEmail\"\" class=\"\"form-label\"\">Email Address</label>.*?</div>'', '''' -replace ''rows=\"\"3\"\"'', ''rows=\"\"2\"\"'' -replace ''Additional Details'', ''Message (Optional)'' -replace ''Tell us about your issue or requirements'', ''Brief description of your issue'' -replace ''mb-4'', ''mb-3'' | Set-Content service-data-recovery.html\")",
+      "Bash(for file in service-tv-projector.html service-industrial.html service-ev.html)",
+      "Bash(do cp \"$file\" \"$file.bak\")",
+      "Bash(done)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}

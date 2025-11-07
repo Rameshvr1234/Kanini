@@ -1,0 +1,484 @@
+<!doctype html>
+<html class="no-js" lang="en">
+<head>
+  <meta charset="utf-8">
+<meta http-equiv="x-ua-compatible" content="ie=edge">
+<title>TV & Projector Repair & Calibration | Kanini Technology Coimbatore</title>
+<meta name="description" content="LED, OLED, LCD TV and projector diagnostics, calibration and board repair in Coimbatore. Genuine parts, colour calibration and warranty-supported service with free pickup within 5km.">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="canonical" href="https://www.kaninitechnology.com/service-tv-projector">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Kanini Technology">
+<meta property="og:title" content="TV & Projector Repair & Calibration | Kanini Technology Coimbatore">
+<meta property="og:description" content="LED, OLED, LCD TV and projector diagnostics, calibration and board repair in Coimbatore. Genuine parts, colour calibration and warranty-supported service with free pickup within 5km.">
+<meta property="og:image" content="https://www.kaninitechnology.com/assets/imgs/banner/kanini-chip-level-repair-coimbatore-banner-1.jpg">
+<meta property="og:url" content="https://www.kaninitechnology.com/service-tv-projector">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="TV & Projector Repair & Calibration | Kanini Technology Coimbatore">
+<meta name="twitter:description" content="LED, OLED, LCD TV and projector diagnostics, calibration and board repair in Coimbatore. Genuine parts, colour calibration and warranty-supported service with free pickup within 5km.">
+<meta name="twitter:image" content="https://www.kaninitechnology.com/assets/imgs/banner/kanini-chip-level-repair-coimbatore-banner-1.jpg">
+<link rel="shortcut icon" type="image/x-icon" href="assets/imgs/favicon.png">
+  <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+  <link rel="stylesheet" href="assets/css/meanmenu.min.css">
+  <link rel="stylesheet" href="assets/css/animate.css">
+  <link rel="stylesheet" href="assets/css/swiper.min.css">
+  <link rel="stylesheet" href="assets/css/slick.css">
+  <link rel="stylesheet" href="assets/css/magnific-popup.css">
+  <link rel="stylesheet" href="assets/css/fontawesome-pro.css">
+  <link rel="stylesheet" href="assets/css/icomoon.css">
+  <link rel="stylesheet" href="assets/css/spacing.css">
+  <link rel="stylesheet" href="assets/css/main.css">
+  <style>
+    .enquiry-modal .modal-content {
+      border-radius: 16px;
+      border: none;
+      box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+    }
+    .enquiry-modal .modal-header {
+      background: linear-gradient(135deg, #3262ff 0%, #1e4fd9 100%);
+      border-radius: 16px 16px 0 0;
+      padding: 25px 30px;
+      border: none;
+    }
+    .enquiry-modal .modal-title {
+      color: white;
+      font-size: 24px;
+      font-weight: 700;
+      margin: 0;
+    }
+    .enquiry-modal .btn-close {
+      background: white;
+      opacity: 1;
+      border-radius: 50%;
+      width: 32px;
+      height: 32px;
+      padding: 0;
+    }
+    .enquiry-modal .modal-body {
+      padding: 35px 30px;
+    }
+    .enquiry-modal .discount-banner {
+      background: linear-gradient(135deg, #fff4e5 0%, #ffe5cc 100%);
+      border-left: 4px solid #ff9800;
+      padding: 15px 20px;
+      border-radius: 8px;
+      margin-bottom: 25px;
+    }
+    .enquiry-modal .discount-banner h5 {
+      color: #ff6f00;
+      font-weight: 700;
+      font-size: 18px;
+      margin: 0;
+    }
+    .enquiry-modal .form-label {
+      font-weight: 600;
+      color: #2d3748;
+      margin-bottom: 8px;
+      font-size: 15px;
+    }
+    .enquiry-modal .form-control,
+    .enquiry-modal .form-select {
+      border: 2px solid #e2e8f0;
+      border-radius: 8px;
+      padding: 12px 16px;
+      font-size: 15px;
+      transition: all 0.3s ease;
+    }
+    .enquiry-modal .form-control:focus,
+    .enquiry-modal .form-select:focus {
+      border-color: #3262ff;
+      box-shadow: 0 0 0 3px rgba(50, 98, 255, 0.1);
+    }
+    .enquiry-modal .btn-submit {
+      background: linear-gradient(135deg, #3262ff 0%, #1e4fd9 100%);
+      color: white;
+      border: none;
+      padding: 14px 40px;
+      border-radius: 8px;
+      font-weight: 600;
+      font-size: 16px;
+      width: 100%;
+      transition: all 0.3s ease;
+    }
+    .enquiry-modal .btn-submit:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 8px 20px rgba(50, 98, 255, 0.3);
+    }
+  </style>
+</head>
+<body>
+  <!-- Enquiry Modal -->
+  <div class="modal fade enquiry-modal" id="enquiryModal" tabindex="-1" aria-labelledby="enquiryModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="enquiryModalLabel">Quick Enquiry</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <div class="discount-banner">
+            <h5><i class="fas fa-tags"></i> Special Discounts Upto 50%</h5>
+          </div>
+          <form id="enquiryForm" action="#" method="post">
+            <div class="mb-3">
+              <label for="enquiryName" class="form-label">Your Name <span class="text-danger">*</span></label>
+              <input type="text" class="form-control" id="enquiryName" name="name" placeholder="Enter your name" required>
+            </div>
+            <div class="mb-3">
+              <label for="enquiryPhone" class="form-label">Phone Number <span class="text-danger">*</span></label>
+              <input type="tel" class="form-control" id="enquiryPhone" name="phone" placeholder="Enter your phone number" required>
+            </div>
+            <div class="mb-3">
+              <label for="enquiryEmail" class="form-label">Email Address</label>
+              <input type="email" class="form-control" id="enquiryEmail" name="email" placeholder="Enter your email address">
+            </div>
+            <div class="mb-3">
+              <label for="enquiryProduct" class="form-label">Select Your Product / Service <span class="text-danger">*</span></label>
+              <select class="form-select" id="enquiryProduct" name="product" required>
+                <option value="Laptop Services">Laptop Services</option>
+                <option value="Desktop Services">Desktop Services</option>
+                <option value="All-in-One PC Services">All-in-One PC Services</option>
+                <option value="Motherboard Chip Level Services">Motherboard Chip Level Services</option>
+                <option value="Apple MacBook Services">Apple MacBook Services</option>
+                <option value="Hard Disk Services">Hard Disk Services</option>
+                <option value="SSD Services">SSD Services</option>
+                <option value="Data Recovery">Data Recovery</option>
+                <option value="Printer Services">Printer Services</option>
+                <option value="Keyboard &amp; Mouse">Keyboard &amp; Mouse</option>
+                <option value="LED Monitor Services">LED Monitor Services</option>
+                <option value="LED TV Services" selected>LED TV Services</option>
+                <option value="Projector Services">Projector Services</option>
+                <option value="CCTV Camera">CCTV Camera</option>
+                <option value="Server &amp; Storage">Server &amp; Storage</option>
+                <option value="Networking Products">Networking Products</option>
+                <option value="Industrial SMPS">Industrial SMPS</option>
+                <option value="Industrial Drive &amp; PLC">Industrial Drive &amp; PLC</option>
+                <option value="CNC Controller Board">CNC Controller Board</option>
+                <option value="EV Charger Controller Board">EV Charger Controller Board</option>
+                <option value="Weighing Scale">Weighing Scale</option>
+                <option value="AMC Contracts">AMC Contracts</option>
+                <option value="Other">Other</option>
+              </select>
+            </div>
+            <div class="mb-4">
+              <label for="enquiryMessage" class="form-label">Additional Details</label>
+              <textarea class="form-control" id="enquiryMessage" name="message" rows="3" placeholder="Tell us about your issue or requirements"></textarea>
+            </div>
+            <button type="submit" class="btn btn-submit">
+              <i class="fas fa-paper-plane me-2"></i> Send Enquiry
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Enquiry Modal End -->
+
+  <div id="preloader">
+    <div class="kanini-preloader"><img src="assets/imgs/logo/logo-white.svg" alt="Kanini Technology Logo"/></div>
+  </div>
+
+  <div class="backtotop-wrap cursor-pointer">
+    <svg class="backtotop-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102"><path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98"/></svg>
+  </div>
+
+  <div class="df-search-area">
+    <div class="container"><div class="row"><div class="col-xl-12"><div class="df-search-form">
+      <div class="df-search-close text-center mb-20"><button class="df-search-close-btn df-search-close-btn"></button></div>
+      <form action="#"><div class="df-search-input mb-10"><input type="text" placeholder="Search here..."><button type="submit"><i class="icon-search"></i></button></div>
+        <div class="df-search-category"><span>Search by : </span><a href="#">Laptop Repair, </a><a href="#">Data Recovery, </a><a href="#">TV &amp; Projector, </a><a href="#">Industrial Electronics</a></div>
+      </form>
+    </div></div></div></div>
+  </div>
+  <div class="body-overlay"></div>
+
+  <div class="fix">
+    <div class="offcanvas__info">
+      <div class="offcanvas__wrapper">
+        <div class="offcanvas__content">
+          <div class="offcanvas__top mb-40 d-flex justify-content-between align-items-center">
+            <div class="offcanvas__logo"><a href="index.html"><img src="assets/imgs/logo/logo-white.svg" alt="Kanini Technology Logo"></a></div>
+            <div class="offcanvas__close"><button><i class="fal fa-times"></i></button></div>
+          </div>
+          <div class="offcanvas__search mb-25"><p class="text-white">Trusted chip-level repairs, data recovery, and IT services across Tamil Nadu.</p></div>
+          <div class="mobile-menu fix mb-40"></div>
+          <div class="offcanvas__contact mt-30 mb-20">
+            <h4>Contact Info</h4>
+            <ul>
+              <li class="d-flex align-items-center"><div class="offcanvas__contact-icon mr-15"><i class="fal fa-map-marker-alt"></i></div><div class="offcanvas__contact-text"><a href="#" target="_blank">No 33, Sarojini Street, V.K.K Menon Road, New Siddhapur, Coimbatore 641044</a></div></li>
+              <li class="d-flex align-items-center"><div class="offcanvas__contact-icon mr-15"><i class="far fa-phone"></i></div><div class="offcanvas__contact-text"><a href="tel:+919629988887">+91 96299 88887</a></div></li>
+              <li class="d-flex align-items-center"><div class="offcanvas__contact-icon mr-15"><i class="fal fa-envelope"></i></div><div class="offcanvas__contact-text"><a href="mailto:service@kaninitechnology.com">service@kaninitechnology.com</a></div></li>
+            </ul>
+          </div>
+          <div class="offcanvas__social">
+            <ul><li><a href="#"><i class="fab fa-facebook-f"></i></a></li><li><a href="#"><i class="fab fa-twitter"></i></a></li><li><a href="#"><i class="fab fa-youtube"></i></a></li><li><a href="#"><i class="fab fa-linkedin"></i></a></li></ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="offcanvas__overlay"></div>
+  <div class="offcanvas__overlay-white"></div>
+
+  <header>
+    <div class="container-fluid bg-color-1">
+      <div class="header-top">
+        <div class="header-top-contact-info"><span class="email p-relative"><a href="mailto:service@kaninitechnology.com">service@kaninitechnology.com</a></span><span class="time p-relative">Hours: Mon - Sat: 9.30 AM - 7.00 PM</span></div>
+        <div class="header-top-socials"><span><a href="#"><i class="fab fa-facebook-f"></i></a></span><span><a href="#"><i class="fab fa-twitter"></i></a></span><span><a href="#"><i class="fab fa-linkedin-in"></i></a></span><span><a href="#"><i class="fab fa-youtube"></i></a></span></div>
+      </div>
+    </div>
+    <div class="header-area" id="header-sticky">
+      <div class="large-container">
+        <div class="mega-menu-wrapper">
+          <div class="header-main">
+            <div class="header-left"><div class="header-logo"><a href="index.html"><img src="assets/imgs/logo/black-logo.svg" alt="Kanini Technology Logo"></a></div></div>
+            <div class="header-right d-flex justify-content-end">
+              <div class="mean__menu-wrapper d-none d-lg-block">
+                <div class="main-menu">
+                  <nav id="mobile-menu">
+                    <ul>
+                      <li><a href="index.html">Home</a></li>
+                      <li><a href="about.html">About</a></li>
+                      <li class="has-dropdown"><a href="services.html">Services</a>
+                        <ul class="submenu">
+                          <li><a href="service-laptop-desktop.html">Laptop &amp; Desktop Repair</a></li>
+                          <li><a href="service-data-recovery.html">Data Recovery Services</a></li>
+                          <li><a href="service-tv-projector.html">TV &amp; Projector Repair</a></li>
+                          <li><a href="service-industrial.html">Industrial Electronics</a></li>
+                          <li><a href="service-ev.html">EV Chargers &amp; Controllers</a></li>
+                        </ul>
+                      </li>
+                      <li><a href="process.html">Process</a></li>
+                      <li><a href="testimonials.html">Testimonials</a></li>
+                      <li><a href="branches.html">Branches</a></li>
+                      <li><a href="blog-grid.html">Blog</a></li>
+                      <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                  </nav>
+                </div>
+              </div>
+              <div class="search-toggle-open header-search my-auto"><div class="search-icon"><i class="icon-search"></i></div></div>
+              <div class="header-action d-none d-xl-inline-flex gap-5"><div class="header-link"><a class="primary-btn-1 btn-hover" href="contact.html">BOOK FREE PICKUP  | <i class="icon-right-arrow"></i><span></span></a></div></div>
+              <div class="header-action">
+                <div class="header-link-1"><div class="icon"><i class="fal fa-phone-volume"></i></div><div class="content"><span>Call Us Now</span><h6><a href="tel:+919629988887">+91 96299 88887</a></h6></div></div>
+              </div>
+              <div class="header__hamburger d-xl-none my-auto"><div class="sidebar__toggle"><a class="bar-icon" href="javascript:void(0)"><i class="fa-light fa-bars-sort"></i></a></div></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <div class="breadcrumb__area theme-bg-1 p-relative pt-160 pb-160">
+      <div class="breadcrumb__thumb" data-background="assets/imgs/service/tv-and-projector-repair-calibration-coimbatore-kanini.jpg" aria-label="LED TV and projector repair and calibration - Kanini Technology Coimbatore"></div>
+      <div class="breadcrumb__thumb_2" data-background="assets/imgs/resources/page-title-bg-2.png"></div>
+      <div class="small-container"><div class="row justify-content-center"><div class="col-xxl-12"><div class="breadcrumb__wrapper p-relative">
+        <h1 class="breadcrumb__title">TV &amp; Projector Repair</h1>
+        <div class="breadcrumb__menu"><nav><ul><li><span><a href="index.html">Home</a></span></li><li><span>Services</span></li><li><span>TV &amp; Projector Repair</span></li></ul></nav></div>
+      </div></div></div></div>
+    </div>
+
+    <section class="service-details-page section-space">
+      <div class="small-container">
+        <div class="row">
+          <div class="col-xxl-8 col-xl-8 col-lg-8">
+            <div class="service-details-page-content">
+              <figure class="w-img"><img src="assets/imgs/service/tv-and-projector-repair-calibration-coimbatore-kanini.jpg" alt="LED TV and projector repair and calibration - Kanini Technology Coimbatore"></figure>
+              <h3 class="service-details-title mt-45 mb-25">Restoring Picture Perfect Quality</h3>
+              <p class="mb-25">Kanini Technology services LED/LCD/Smart TVs and a full range of projectors. Lamp units, DMD chips, lens assemblies and logic boards are repaired or replaced using genuine parts, ensuring accurate colours and reliable performance.</p>
+              <p class="mb-35">Whether it is a home theatre projector, classroom short-throw unit or office signage display, our specialists diagnose faults, provide transparent estimates and complete calibration before delivery.</p>
+              <div class="row">
+                <div class="col-lg-6"><figure class="w-img"><img src="assets/imgs/service/service-details-1.jpg" alt="Projector diagnostics"></figure></div>
+                <div class="col-lg-6"><figure class="w-img"><img src="assets/imgs/service/service-details-2.jpg" alt="TV panel inspection"></figure></div>
+              </div>
+              <p class="mt-25 mb-35">Common issues such as auto shut-down, overheating, no display, flickering, backlight failure or firmware loops are carefully addressed. We also supply lamp units and panels when replacements are more cost-effective.</p>
+
+              <h4>Projector Services</h4>
+              <div class="row mt-25 mb-35">
+                <div class="col-lg-7"><figure class="w-img"><img src="assets/imgs/service/service-4.jpg" alt="Projector parts"></figure></div>
+                <div class="col-lg-5">
+                  <ul class="service-details-page-list pt-20 pb-10">
+                    <li>Auto-off &amp; temperature trip diagnostics</li>
+                    <li>Lamp unit replacements &amp; ballast repair</li>
+                    <li>DMD chip / prism assembly rework</li>
+                    <li>Lens cleaning &amp; alignment</li>
+                    <li>Cooling fan and filter maintenance</li>
+                  </ul>
+                </div>
+              </div>
+
+              <h4>TV Services</h4>
+              <div class="row mt-25">
+                <div class="col-lg-6">
+                  <ul class="service-details-page-list">
+                    <li>No display, lines or dim backlight</li>
+                    <li>T-Con, main board and power board repair</li>
+                    <li>Backlight LED strips and drivers</li>
+                  </ul>
+                </div>
+                <div class="col-lg-6">
+                  <ul class="service-details-page-list">
+                    <li>Firmware rebuilds for Smart TVs</li>
+                    <li>Panel cleaning &amp; reseating</li>
+                    <li>Wall-mount pickup &amp; delivery support</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-xxl-4 col-xl-4 col-lg-4">
+            <div class="service-sidebar">
+              <aside>
+                <div class="service-widget-1 mb-30">
+                  <h5>Main Services</h5>
+                  <ul>
+                    <li><a href="service-laptop-desktop.html"><span>Laptop &amp; Desktop Repair</span><span><i class="icon-arrow-right-double"></i></span></a></li>
+                    <li><a href="service-data-recovery.html"><span>Data Recovery Services</span><span><i class="icon-arrow-right-double"></i></span></a></li>
+                    <li><a class="active" href="service-tv-projector.html"><span>TV &amp; Projector Repair</span><span><i class="icon-arrow-right-double"></i></span></a></li>
+                    <li><a href="service-industrial.html"><span>Industrial Electronics</span><span><i class="icon-arrow-right-double"></i></span></a></li>
+                    <li><a href="service-ev.html"><span>EV Chargers &amp; Controllers</span><span><i class="icon-arrow-right-double"></i></span></a></li>
+                  </ul>
+                </div>
+                <div class="service-widget-2 mb-30">
+                  <figure class="w-img"><img src="assets/imgs/service/service-widget-1.jpg" alt="Support"></figure>
+                  <div class="content bg-color-1 text-center">
+                    <div class="icon-box p-relative"><i class="fal fa-phone-volume"></i></div>
+                    <h5>Need Help? Call Here</h5>
+                    <a class="pt-25 pb-25 phone" href="tel:+919629988887">+91 96299 88887</a>
+                    <div class="btn-box"><a class="primary-btn-1 btn-hover" href="contact.html">BOOK FREE PICKUP  | <i class="icon-right-arrow"></i><span></span></a></div>
+                  </div>
+                </div>
+                <div class="service-widget-3">
+                  <div class="company-file">
+                    <h6>Service Brochure</h6>
+                    <div class="file-size"><span>(1.2MB)</span><span><a href="#"><i class="far fa-arrow-down-to-bracket"></i></a></span></div>
+                  </div>
+                </div>
+              </aside>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer area start -->
+<footer>
+<div class="footer-main bg-color-1">
+<div class="footer-top section-space-medium">
+<div class="small-container">
+<div class="row g-4">
+<div class="col-xxl-3 col-xl-3 col-lg-3 col-md-6">
+<div class="footer-widget-1">
+<figure class="image">
+<img alt="Kanini Technology White Logo" src="assets/imgs/logo/logo-white.svg"/>
+</figure>
+<p class="mt-40 mb-20">Kanini Technology<br/>No 33, Sarojini Street, V.K.K Menon Road, New Siddhapur, Coimbatore 641044<br/>Phone: <a href="tel:+919629988887">+91 96299 88887</a><br/>Email: <a href="mailto:service@kaninitechnology.com">service@kaninitechnology.com</a><br/>Hours: Mon - Sat: 9.30 AM - 7.00 PM</p>
+<div class="footer-socials">
+<span><a href="#"><i class="fab fa-facebook-f"></i></a></span>
+<span><a href="#"><i class="fab fa-twitter"></i></a></span>
+<span><a href="#"><i class="fab fa-linkedin-in"></i></a></span>
+<span><a href="#"><i class="fab fa-youtube"></i></a></span>
+</div>
+</div>
+</div>
+<div class="col-xxl-3 col-xl-3 col-lg-3 col-md-6">
+<div class="footer-widget-2 pl-50">
+<h4 class="mb-20 footer-title">Our Services</h4>
+<ul class="service-list"><li><a href="service-laptop-desktop.html">Laptop &amp; Desktop Repair</a></li><li><a href="service-data-recovery.html">Data Recovery Services</a></li><li><a href="service-tv-projector.html">TV &amp; Projector Repair</a></li><li><a href="service-industrial.html">Industrial Electronics Repair</a></li><li><a href="service-ev.html">EV Chargers &amp; Controllers</a></li></ul>
+</div>
+</div>
+<div class="col-xxl-3 col-xl-3 col-lg-3 col-md-6">
+<div class="footer-widget-3">
+<h4 class="mb-20 footer-title">Latest Post</h4>
+<ul class="blog-list">
+<li>
+<div class="footer-blog-post-box mb-15">
+<figure class="thumb">
+<img alt="" src="assets/imgs/blog/blog-s-1.jpg"/>
+</figure>
+<div class="content">
+<span class="date"><a href="#">05 Dec, 2024</a></span>
+<h6><a href="blog-details">How to Choose a Reliable Repair Center</a></h6>
+</div>
+</div>
+</li>
+<li>
+<div class="footer-blog-post-box mb-15">
+<figure class="thumb">
+<img alt="" src="assets/imgs/blog/blog-s-2.jpg"/>
+</figure>
+<div class="content">
+<span class="date"><a href="#">05 Dec, 2024</a></span>
+<h6><a href="blog-details">How to Choose a Reliable Repair Center</a></h6>
+</div>
+</div>
+</li>
+</ul>
+</div>
+</div>
+<div class="col-xxl-3 col-xl-3 col-lg-3 col-md-6">
+<div class="footer-widget-4 pr-30">
+<h4 class="mb-20 footer-title">Newsletter</h4>
+<p>Sign up for updates, repair tips &amp; seasonal offers.</p>
+<div class="footer-subscribe">
+<form action="#">
+<input name="email" placeholder="Your email address" required="" type="email"/>
+<button class="primary-btn-1 btn-hover" type="submit">
+                                 SUBSCRIBE NOW
+                                 <span style="top: 147.172px; left: 108.5px;"></span>
+</button>
+</form>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="small-container">
+<div class="footer-bottom pt-30 pb-30">
+<div class="left-area">
+<span>&copy; Kanini Technology, Coimbatore - All Rights Reserved.</span>
+</div>
+<div class="right-area">
+<span><a href="#">Terms &amp; Conditions</a></span>
+<span><a href="#">Privacy Policy</a></span>
+</div>
+</div>
+</div>
+</div>
+</footer>
+<!-- Footer area end -->
+
+  <script src="assets/js/jquery-3.7.1.min.js"></script>
+  <script src="assets/js/waypoints.min.js"></script>
+  <script src="assets/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/js/meanmenu.min.js"></script>
+  <script src="assets/js/swiper.min.js"></script>
+  <script src="assets/js/slick.min.js"></script>
+  <script src="assets/js/magnific-popup.min.js"></script>
+  <script src="assets/js/counterup.js"></script>
+  <script src="assets/js/wow.js"></script>
+  <script src="assets/js/main.js"></script>
+  <script>
+    // Auto-show enquiry modal on page load
+    $(document).ready(function() {
+      setTimeout(function() {
+        $('#enquiryModal').modal('show');
+      }, 1500); // Show after 1.5 seconds to let page load
+    });
+
+    // Handle form submission
+    $('#enquiryForm').on('submit', function(e) {
+      e.preventDefault();
+      // Here you can add AJAX submission logic
+      // For now, just show success message
+      alert('Thank you for your enquiry! We will contact you shortly.');
+      $('#enquiryModal').modal('hide');
+      this.reset();
+    });
+  </script>
+</body>
+</html>
