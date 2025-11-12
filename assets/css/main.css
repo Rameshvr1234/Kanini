@@ -1267,23 +1267,187 @@ figure{
   }
 }
 
-/* Kanini logo preloader */
+/* Kanini logo preloader - Enhanced Modern Design */
 .kanini-preloader {
   height: 100vh;
   width: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-direction: column;
+  position: relative;
+  overflow: hidden;
 }
+
+/* Animated gradient background */
+.kanini-preloader::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(135deg, #0f0c29 0%, #302b63 50%, #24243e 100%);
+  animation: gradient-shift 8s ease infinite;
+  z-index: -1;
+}
+
+/* Floating particles background effect */
+.kanini-preloader::after {
+  content: '';
+  position: absolute;
+  width: 400px;
+  height: 400px;
+  background: radial-gradient(circle, rgba(74, 144, 226, 0.1) 0%, transparent 70%);
+  border-radius: 50%;
+  animation: float-particle 6s ease-in-out infinite;
+  z-index: -1;
+}
+
+@keyframes gradient-shift {
+  0%, 100% { filter: hue-rotate(0deg) brightness(1); }
+  50% { filter: hue-rotate(20deg) brightness(1.1); }
+}
+
+@keyframes float-particle {
+  0%, 100% { transform: translate(-50%, -50%) scale(1); opacity: 0.3; }
+  50% { transform: translate(30%, 30%) scale(1.2); opacity: 0.5; }
+}
+
+/* Logo wrapper with spinning ring */
+.kanini-preloader-logo-wrapper {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+/* Outer spinning ring */
+.kanini-preloader-logo-wrapper::before {
+  content: '';
+  position: absolute;
+  width: 180px;
+  height: 180px;
+  border: 3px solid transparent;
+  border-top-color: #4a90e2;
+  border-right-color: #4a90e2;
+  border-radius: 50%;
+  animation: spin-ring 1.5s linear infinite;
+  opacity: 0.8;
+}
+
+/* Inner spinning ring (opposite direction) */
+.kanini-preloader-logo-wrapper::after {
+  content: '';
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  border: 2px solid transparent;
+  border-bottom-color: #7b68ee;
+  border-left-color: #7b68ee;
+  border-radius: 50%;
+  animation: spin-ring-reverse 2s linear infinite;
+  opacity: 0.6;
+}
+
+@keyframes spin-ring {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+@keyframes spin-ring-reverse {
+  0% { transform: rotate(360deg); }
+  100% { transform: rotate(0deg); }
+}
+
+/* Logo styling with enhanced animations */
 .kanini-preloader img {
   width: 160px;
   max-width: 60vw;
-  animation: kanini-pulse 1.4s ease-in-out infinite;
-  filter: drop-shadow(0 0 6px rgba(255,255,255,0.2));
+  position: relative;
+  z-index: 1;
+  animation: logo-float 2.5s ease-in-out infinite;
+  filter: drop-shadow(0 8px 24px rgba(74, 144, 226, 0.4));
 }
-@keyframes kanini-pulse {
-  0%, 100% { transform: scale(0.96); opacity: 0.9; }
-  50% { transform: scale(1.04); opacity: 1; }
+
+@keyframes logo-float {
+  0%, 100% {
+    transform: translateY(0) scale(1);
+    filter: drop-shadow(0 8px 24px rgba(74, 144, 226, 0.4));
+  }
+  50% {
+    transform: translateY(-15px) scale(1.05);
+    filter: drop-shadow(0 12px 32px rgba(74, 144, 226, 0.6));
+  }
+}
+
+/* Loading text */
+.kanini-preloader-text {
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  animation: text-pulse 1.5s ease-in-out infinite;
+  text-shadow: 0 2px 10px rgba(74, 144, 226, 0.3);
+  margin-top: 10px;
+}
+
+@keyframes text-pulse {
+  0%, 100% { opacity: 0.6; }
+  50% { opacity: 1; }
+}
+
+/* Loading dots animation */
+.kanini-loading-dots {
+  display: flex;
+  gap: 8px;
+  margin-top: 20px;
+}
+
+.kanini-loading-dots span {
+  width: 10px;
+  height: 10px;
+  background: #4a90e2;
+  border-radius: 50%;
+  animation: dot-bounce 1.4s ease-in-out infinite;
+  box-shadow: 0 0 10px rgba(74, 144, 226, 0.5);
+}
+
+.kanini-loading-dots span:nth-child(1) {
+  animation-delay: 0s;
+}
+
+.kanini-loading-dots span:nth-child(2) {
+  animation-delay: 0.2s;
+}
+
+.kanini-loading-dots span:nth-child(3) {
+  animation-delay: 0.4s;
+}
+
+@keyframes dot-bounce {
+  0%, 80%, 100% {
+    transform: scale(0.8);
+    opacity: 0.5;
+  }
+  40% {
+    transform: scale(1.2);
+    opacity: 1;
+  }
+}
+
+/* Fade out animation when page loads */
+#preloader.loaded {
+  animation: fade-out 0.6s ease-out forwards;
+}
+
+@keyframes fade-out {
+  to {
+    opacity: 0;
+    visibility: hidden;
+  }
 }
 /*----------------------------------------*/
 /*  MEAN MENU CSS START
